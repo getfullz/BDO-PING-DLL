@@ -22,9 +22,10 @@ Unlike traditional ping monitors that send active ICMP echo requests, this plugi
 1. Download the latest `BDO_Ping_x86.dll` from the [Releases](https://github.com/getfullz/BDO-PING-DLL/releases) page.
 2. Copy the DLL to your MSI Afterburner plugins directory:
    `C:\Program Files (x86)\MSI Afterburner\Plugins\Monitoring\`
-3. Restart MSI Afterburner.
-4. Go to **Settings -> Monitoring**.
-5. Find **Ping** in the active hardware monitoring graphs list, enable it, and configure its OSD display.
+3. Restart MSI Afterburner and go to **Settings -> Monitoring**.
+4. Next to **Active hardware monitoring graphs**, click the button with three dots (`...`).
+5. In the opened **Hardware monitoring plugins** window, find and check **BDO_Ping_x86.dll** under **Active plugin modules**, then click **OK**.
+6. Now find **BDO Ping (RTT)** (or **Ping**) in the active hardware monitoring graphs list, enable it, and configure its OSD display.
 
 ## Building from Source
 
