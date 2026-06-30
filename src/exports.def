@@ -1,0 +1,6 @@
+EXPORTS
+    GetSourcesNum
+    GetSourceDesc
+    GetSourceData
+    SetupSource
+    Uninit

@@ -1,0 +1,43 @@
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.doccache
+
+# CMake
+out/
+build/
+build_x86/
+build_x64/
+CMakeFiles/
+CMakeSettings.json
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+*.pdb
+
+# Compiled binaries
+*.dll
+*.exe
+*.lib
+*.exp
+
+# Logs
+*_Log.txt
+*.log
+
+# MSVC
+bin/
+obj/
+ipch/
+*.suo
+*.user
+*.userosscache
+*.sln.doccache
+*.ncb
+*.sdf
+*.opensdf
+*.vcproj
+*.vcproj.*
+*.vcxproj
+*.vcxproj.*
